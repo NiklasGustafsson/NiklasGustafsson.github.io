@@ -13,7 +13,6 @@
         },
     "templatesImperial": {
       "0":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %",
-      "0A": "<i class=\"ewi-temperature\" style=\"color:#${simmerColor}\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %",    
       "0B": "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %",
       "1":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-pressure\"></i> ${pressure} inHg",
       "1A": "<i class=\"ewi-temperature\" style=\"color:#${simmerColor}\"></i> ${temperature} &deg;F<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-pressure\"></i> ${pressure} inHg",    
@@ -29,7 +28,6 @@
     },
     "templatesMetric": {
       "0":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;C<br><i class=\"ewi-humidity\"></i> ${humidity} %",
-      "0A": "<i class=\"ewi-temperature\" style=\"color:#${simmerColor}\"></i> ${temperature} &deg;C<br><i class=\"ewi-humidity\"></i> ${humidity} %",    
       "0B": "<i class=\"ewi-temperature\"></i> ${temperature} &deg;C<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-batt${batteryIcon}\"></i> ${battery} %",
       "1":  "<i class=\"ewi-temperature\"></i> ${temperature} &deg;C<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-pressure\"></i> ${pressure} hPa",
       "1A": "<i class=\"ewi-temperature\" style=\"color:#${simmerColor}\"></i> ${temperature} &deg;C<br><i class=\"ewi-humidity\"></i> ${humidity} %<br><i class=\"ewi-pressure\"></i> ${pressure} hPa",    
