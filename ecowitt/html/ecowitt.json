@@ -19,7 +19,7 @@
       "8":  "<i class=\"ewi-rain\"></i> ${rainRate} ${rainUnit}/h<br><i class=\"ewi-windspeed\"></i> ${windSpeed} ${speedUnit}<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
       "8A": "<i class=\"ewi-rain\"></i> ${rainRate} ${rainUnit}/h<br><i class=\"ewi-windspeed\" style=\"color:#${windColor}\"></i> ${windSpeed} ${speedUnit}<br><i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}",
       "9B": "<i class=\"ewi-batt${batteryTempIcon}\"></i> Temp: ${batteryTemp} %<br><i class=\"ewi-batt${batteryRainIcon}\"></i> Rain: ${batteryRain} %<br><i class=\"ewi-batt${batteryWindIcon}\"></i> Wind: ${batteryWind} %",
-      "10": "<i class=\"ewi-rain\"></i> ${rainRate} ${rainUnit}/h<br>Hourly: ${rainHourly} ${rainUnit}<br>Daily: ${rainDaily} ${rainUnit}<br>Monthly: ${rainMonthly} ${rainUnit}<br>Total: ${rainTotal} ${rainUnit}",
+      "10": "<p><i class=\"ewi-rain\"></i> ${rainRate} ${rainUnit}/h<br>Hourly: ${rainHourly} ${rainUnit}<br>Daily: ${rainDaily} ${rainUnit}<br>Monthly: ${rainMonthly} ${rainUnit}<br>Total: ${rainTotal} ${rainUnit}</p>",
       "11":  "<i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}<br><i class=\"ewi-windspeed\"></i> ${windSpeed} ${speedUnit}<br>Gust: ${windGust} ${speedUnit}<br>Daily Max: ${windGustMaxDaily} ${speedUnit}",
       "11A": "<i class=\"ewi-wind${windCompass}\"></i> ${windDirection} &deg; ${windCompass}<br><i class=\"ewi-windspeed\"></i> ${windSpeed} ${speedUnit}<br><p style=\"color:#${beaufortColor}\">${beaufort}</p>",
       "12": "<i class=\"ewi-air\" style=\"color:#${aqiColor}\"></i> ${aqiDanger}<br>AQI: ${aqi}<br>PM2.5: ${pm25} &micro;g/m&sup3;<br>PM10: ${pm10} &micro;g/m&sup3;<br>CO₂: ${carbonDioxide} ppm",
